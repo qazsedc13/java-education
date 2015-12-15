@@ -1,0 +1,10 @@
+package ru.qazsedc13.home;
+
+public class Arifmet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

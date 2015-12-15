@@ -1,0 +1,80 @@
+
+public class JavaTypesClass {
+
+	public static void main(String[] args) {
+	
+//		byte b = 127;
+//		System.out.println(b);
+		
+//		short s = 20000;
+//		System.out.println(s);
+		
+//		int i = 2000000000;
+//		System.out.println(i);
+		
+//		long l = 999999999999999999l;
+//		System.out.println(l);
+		
+//		float f = 99999999999999999999999999999999999999f;
+//		System.out.println(f);
+		
+//		double d = 9e-50;
+//		System.out.println(d);
+//		double d2 = 1.01;
+//		System.out.println(d2);
+		
+//		boolean b = false;
+//		System.out.println(b);
+		
+//		char ch = 'Ж';
+//		System.out.println(ch);
+		
+		//Удобство записи чисел через подчеркивание _
+		
+//		double d = 333_333_333.444_444_444_4e40;
+		
+		// Форма написания в 2, 8, 16 -й системе исчисления
+		
+//		int i = 0b1110;
+//		System.out.println(i);
+		
+//		int j = 010;
+//		System.out.println(j);
+		
+//		int k = 0xF0;
+//		System.out.println(k);
+		
+		//Представление числа в разных системах исчислниях (to)
+		
+//		int i = 239;
+//		System.out.println("Binary: "+Integer.toBinaryString(i));
+//		System.out.println("Hexadecimal: "+Integer.toHexString(i));
+//		System.out.println("Octal: "+Integer.toOctalString(i));
+//		System.out.println("5: "+Integer.toUnsignedString(i, 5)); // любая система исчисления, в данном случая 5-ая
+		
+		//Получение числа из других систем исчисления (valueOf)
+		
+//		String octal = "10";
+//		System.out.println(Integer.valueOf(octal, 8));
+//		
+//		String hex = "FF";
+//		System.out.println(Integer.valueOf(hex, 16));
+//		
+//		String bi = "11110";
+//		System.out.println(Integer.valueOf(bi, 2));
+//		
+//		String d = "123ghj";
+//		System.out.println(Integer.valueOf(d, 20));
+		
+		//Представление символьного типа с помощью кода Unicode uXXXX
+		
+		char ch = '\u0044'; //http://unicode-table.com/ru/
+		System.out.println(ch);
+		
+		char ch2 = '\u0444'; //http://unicode-table.com/ru/
+		System.out.println(ch2);
+		
+
+	}
+
+}

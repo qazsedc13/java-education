@@ -1,0 +1,44 @@
+
+public class JavaTypesClass {
+
+	public static void main(String[] args) {
+	
+//		byte b = 127;
+//		System.out.println(b);
+		
+//		short s = 20000;
+//		System.out.println(s);
+		
+//		int i = 2000000000;
+//		System.out.println(i);
+		
+//		long l = 999999999999999999l;
+//		System.out.println(l);
+		
+//		float f = 99999999999999999999999999999999999999f;
+//		System.out.println(f);
+		
+//		double d = 9e-50;
+//		System.out.println(d);
+//		double d2 = 1.01;
+//		System.out.println(d2);
+		
+//		boolean b = false;
+//		System.out.println(b);
+		
+//		char ch = 'Ж';
+//		System.out.println(ch);
+		
+		//Удобство записи чисел через подчеркивание _
+		
+		double d = 333_333_333.444_444_444_4e40;
+		
+		// Форма написания в 2, 8, 16 -й системе исчисления
+//		int i = 0b1110;
+//		System.out.println(i);
+		int j = 07;
+		System.out.println(j);
+
+	}
+
+}

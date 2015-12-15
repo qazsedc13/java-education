@@ -1,0 +1,20 @@
+package ru.qazsedc13.home;
+
+public class Operators {
+	public static void display(int value){
+		System.out.println("Binary="+Integer.toBinaryString(value)+" Decimal="+value);
+	}
+
+	public static void main(String[] args) {
+		
+		/************Битовые (поразрядные) операторы Java********/
+		// ~ Ударное отрицание (NOT)
+		
+		int b1 = 0b10101010101010101010101101010101;
+		int b2=~b1;
+		display(b1);
+		display(b2);
+
+	}
+
+}

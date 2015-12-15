@@ -1,0 +1,36 @@
+package ru.qazsedc13.home;
+
+public class Arifmet {
+
+	public static void main(String[] args) {
+		/************Арифметические операторы Java***********/
+		
+		// +, -, *, /, %
+//		int i=1+2;
+//		System.out.println(i);
+//		i=3-5;
+//		System.out.println(i);
+//		i=3*5;
+//		System.out.println(i);
+//		i=5/2; // целочисленное деление, т.е. остаток отбрасывается
+//		System.out.println(i);
+//		i=15%10; // получени остатка
+//		System.out.println(i);
+		
+		
+		// ++ инкремент
+		
+		int i=5;
+		i++;
+		System.out.println(i);
+		
+		// -- декремент
+		// += присваивание со сложением
+		// -= присваивание с вычитанием
+		// *= присваивание с умножением
+		// /= присваивание с делением
+		// %= присваивание с вычислением остатка
+
+	}
+
+}
