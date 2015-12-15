@@ -207,7 +207,7 @@ public class Operators {
 		i=5;
 		if(i==0&&i++==0)// если первая часть ложь, вторая не выполняется
 		{}
-//		System.out.println(i); 
+		System.out.println(i); 
 		
 	}
 
